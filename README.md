@@ -16,7 +16,7 @@ Bir "cars" kaynağı için bir RESTful API oluşturun. Bu API'nin kullanıcısı
 
 #### Cars Şeması
 
-Her araba için kritik bilgiler, şasi numarası(vin), marka(make), model ve kilometredir(mileage). Ayrıca aracın vites türünü(transmission) (manuel, otomatik...) ve durum başlığını(title)  (temiz, hurda...) da takip ederiz, ancak bu bilgi her zaman ilk başta bilinmez.
+Her araba için kritik bilgiler, şasi numarası(vin), marka(make), model ve kilometredir(mileage). Ayrıca aracın vites türünü(transmission) (manuel, otomatik...) ve durum başlığını(title) (temiz, hurda...) da takip ederiz, ancak bu bilgi her zaman ilk başta bilinmez.
 Aşağıdaki şemayı karşılamak için `data/migrations/01-make_cars_table.js` migration dosyasının içine "up" ve "down" fonksiyonlarını yazın:
 
 | bölüm        | veri tipi        | metadata                                            |
